@@ -15,6 +15,7 @@
                 </span>
               </a>
             </li>
+            {{ if .secondary_button }}
             <li>
               <a href="{{ .secondary_button_url }}" class="btn btn-primary">
                 <span class="btn-area">
@@ -24,6 +25,7 @@
                 </span>
               </a>
             </li>
+            {{ end }}
           </ul>
         </div>
       </div>
