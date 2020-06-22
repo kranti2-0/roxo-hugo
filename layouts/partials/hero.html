@@ -1,7 +1,7 @@
 {{ with .Site.Params.banner }}
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section class="site-hero" style="background-image: url('{{ .background_image }}');">
+  <section class="site-hero" style="background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)), url('{{ .background_image }}'); background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
