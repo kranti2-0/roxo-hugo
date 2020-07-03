@@ -13,14 +13,16 @@
     &.inactive{
       opacity: 0.4;
     }
+    h5 {
+      font-size: 30px;
+    }
     &-header{
       display: flex;
       align-items: center;
       margin-bottom: 20px;
       .thumb{
-        width: 80px;
         img{
-          width: 100%;
+          max-width: 100%;
         }
         margin-right: 15px;
       }
@@ -36,7 +38,8 @@
     }
     &-body{
       margin-bottom: 0;
-      font-weight: 300;
+      font-weight: 500;
+      font-size: 18px;
     }
   }
 }
