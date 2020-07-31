@@ -22,6 +22,9 @@
                 <div class="col-lg-6">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                 </div>
+                <div class="col-lg-6">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone: +12-1234567890" pattern="\+[0-9]{1,3}-[0-9]{7,10}" oninvalid="this.setCustomValidity('Format: +<Country Code>-<Number>')" oninput="this.setCustomValidity('')">
+                </div>
                 <div class="col-12">
                   <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="Message"></textarea>
                 </div>
